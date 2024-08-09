@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html, body {
+    height: 1200px;
+    width: 100%;
+    }
+
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 100%;
+    }
+
+    .box {
+    flex: 1;
+    width: 100%;
+    }
+
+    .box1 {
+    background-color: rgb(33, 74, 87);
+    height: 100%;
+    }
+
+    .box3 {
+    background-color: rgb(71, 128, 141);
+    height: 100%;
+    display: flex;
+    flex-direction:row;
+    }
+
+    .box-right,.box-left{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .box-left{
+        width: 45%;
+        height: 100%;
+        background-color: rgb(76, 71, 71);
+        float: left;
+    }
+
+    .box-right{
+        width: 55%;
+        height: 100%;
+        background-color: rgb(76, 71, 71);
+        float: right;
+    }
+
+    .greed,.name,.job,.describe,.hire-me{
+        margin-left: 60px;
+        margin-top: 8px;
+    }
+
+    .greed{
+        margin-top: 140px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 22px;
+    }
+
+    .name{
+        color: cyan;
+        font-size: 58px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .job{
+        color: white;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .describe{
+        width: 550px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: white;
+    }
+
+    .hire-me{
+        margin-top: 30px;
+        background-color: rgb(217, 76, 76);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px 15px 10px 15px;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 5px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .hire-me:hover{
+        opacity: 0.8;
+    }
+
+    .hire-me:active{
+        opacity: 0.6;
+    }
+
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+
+    nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    }
+
+    ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+    }
+
+    li {
+    display: inline;
+    }
+
+    a {
+    text-decoration: none;
+    color: rgb(168, 161, 161);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    }
+
+    a:hover {
+    background-color: #e29c9c;
+    color: black;
+    }
+
+    .my-image{
+        width: 350px;
+        height: 450px;
+        border-radius: 50px;
+    }
+
+
+    .box-right,.box-left{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    .box1-left{
+        width: 45%;
+        height: 100%;
+        background-color: rgb(62, 59, 59);
+        float: left;
+    }
+
+    .box1-right{
+        width: 55%;
+        height: 100%;
+        background-color: rgb(62, 59, 59);
+        float: right;
+    }
+
+    .question{
+        margin-left: 60px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        margin-top: 100px;
+    }
+    .talk{
+        margin-left: 60px;
+        margin-top:20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .und-col{
+        color: coral;
+    }
+
+    .mail{
+        color: coral;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 60px;
+        margin-top: 40px;
+    }
+
+    .whatsapp{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 60px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .nav{
+        width: 100%;
+        height: 20%;
+    }
+
+    .box2-left{
+        width: 50%;
+        height: 80%;
+        float: left;
+    }
+
+    .box2-right{
+        width: 50%;
+        height: 80%;
+        float: right;
+    }
+
+    .skills{
+        width: 350px;
+        height: 450px;
+        margin-left: 20px;
+        border-top: 1px solid white; 
+        border-bottom: 4px solid white;
+        margin-bottom: 10px;
+    }
+
+    .skill-content{
+        font-weight: bold;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+
+
+    .degree,.collage{
+        color: white;
+        font-weight: bold;
+        margin-top: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 20px;
+    }
+
+    .uni1,.gratuate{
+        margin-left: 50px;
+        color: gray;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 3px;
+    }
+
+    .collage{
+        margin-top: 60px;
+    }
+
+    .box3-left{
+        width: 33.33%;
+        height: 100%;
+        background-color: rgb(48, 49, 50);
+        float: right;
+    }
+    .box3-right{
+        width: 33.33%;
+        height: 100%;
+        background-color: rgb(48, 49, 50);
+        float: right;
+    }
+
+    .box3-center{
+        width: 26.67%;
+        height: 100%;
+        background-color: rgb(48, 49, 50);
+        float: right;
+    }
+
+    .box3-right{
+        width: 40%;
+        height: 100%;
+        background-color: rgb(48, 49, 50);
+        float: left;
+    }
+
+    .box3-1-1{
+        width: 100%;
+        height: 50%;
+        border: 1px solid rgb(48, 49, 50);
+    }
+
+    .box3-1-1-sub{
+        width: 400px;
+        height: 200px;
+        margin: 50px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        background-color: rgb(85, 80, 80);
+        border-radius: 10px;
+        transition: font-size 0.15s;
+    }
+
+    .box3-1-1-sub:hover{
+        font-size: 20px;
+    }
+
+    .box3-1-2-sub{
+        width: 400px;
+        height: 200px;
+        margin: 0px 50px 15px 50px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        background-color: rgb(85, 80, 80);
+        border-radius: 10px;
+    }
+    
+    .box3-1-1-sub-skill{
+        color: white;
+        margin-left: 30px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .box3-1-1-sub-skill-1{
+        color: rgb(142, 138, 138);
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .box3-1-2-sub-project{
+        color: white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .box3-1-2-sub{
+        background-image: url('./R\ \(23\).jfif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .box3-1-2-sub-btn{
+        margin-left: 50px;
+        width: 400px;
+        height: 40px;
+        background-color: rgb(224, 69, 69);
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .box3-2-1{
+        width: 500px;
+        height: 505px;
+        border: 1px solid white;
+        margin-left: 50px;
+        margin-top: 50px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(142, 138, 138);
+    }
+
+    .head-h1{
+        margin-bottom: 10px;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        padding-top: 15px;
+    }
+
+    .inp-fname,.inp-lname,.inp-mail,.inp-password,.inp-age{
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        margin-left: 50px;
+        width: 390px;
+        height: 35px;
+        border-radius: 15px;
+        background-color: rgb(211, 200, 200);
+        border: none;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .lbl1,.lbl2,.lbl3,.lbl4,.lbl5{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 50px;
+    }
+    .btn-submit{
+        width: 190px;
+        height: 40px;
+        margin-left: 50px;
+        background-color: rgb(31, 239, 31);
+        color: black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border: none;
+        font-weight: bold;
+    }
+    .btn-submit:hover{
+        opacity: 0.7;
+    }
+    .btn-submit:active{
+        opacity: 0.5;
+    }
+
+    .btn-clear{
+        width: 190px;
+        height: 40px;
+        margin-left: 5px;
+        background-color: rgb(233, 56, 47);
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+        border: none;
+        font-weight: bold;
+    }
+    .btn-clear:hover{
+        opacity: 0.7;
+    }
+    .btn-clear:active{
+        opacity: 0.5;
+    }
+
+    .box3-contect{
+        width: 300px;
+        height: 230px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        border-left: 1px solid white;
+        margin: 50px;
+    }
+
+    .box3-contect-1{
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .box3-contect-2{
+        margin-left: 20px;
+        margin-top: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .box3-contect-3{
+        color: rgb(219, 133, 133);
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .box3-contect-4{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .box3-contect-4-sec{
+        color: rgb(219, 133, 133);
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
